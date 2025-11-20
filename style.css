@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: #F9F8F6;
+}
+
+.header {
+  background-color: #C9B59C;
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgb(78, 78, 78, 0.2);
+}
+
+.header h1 {
+  margin: 0;
+  cursor: pointer;
+  color: #171615;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3rem;
+  list-style-type: none;
+  width: 90vw;
+  margin: 50px auto;
+  padding: 10px 10px;
+}
+
+li {
+  background-color: #EFE9E3;
+  border: 0.2rem solid rgb(90, 32, 11);
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 280px;
+  width: 70%;
+}
+
+li a {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 30px 40px; 
+  color: #171615;
+  overflow: hidden;
+}
+
+li a img {
+  margin: -30px -40px -30px 0px ;
+  height: 300px;
+}
+
+.recipe p {
+  font-size: 20px;
+  color: #5f5a55;
+  width: 80%;
+  font-weight: initial;
+}
