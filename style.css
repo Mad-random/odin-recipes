@@ -36,6 +36,10 @@ li {
   width: 70%;
 }
 
+li:hover {
+  box-shadow: 5px 5px 25px rgb(99, 99, 99, 0.4)
+}
+
 li a {
   font-size: 30px;
   font-weight: bold;

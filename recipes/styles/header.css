@@ -1,0 +1,14 @@
+.header {
+  background-color: #C9B59C;
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgb(78, 78, 78, 0.2);
+}
+
+.header a {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer;
+  color: #171615;
+}
